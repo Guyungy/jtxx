@@ -5,17 +5,17 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '欢迎来到吉他学习笔记博客', url: ' ' },
+    { title: '别看了 赶紧练', url: '' }
   ],
 
   // 英雄区(首页顶部大卡)
   HERO_TITLE_1: '指弹吉他',
   HERO_TITLE_2: '免费吉他谱',
-  HERO_TITLE_3: 'jt.moyucm.xyz',
+  HERO_TITLE_3: '',
   HERO_TITLE_4: '收藏页面',
   HERO_TITLE_5: '轻松练习吉他',
-  HERO_TITLE_LINK: 'jt.moyucm.xyz',
+  HERO_TITLE_LINK: '',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
