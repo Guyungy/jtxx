@@ -10,12 +10,12 @@ const CONFIG = {
   ],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: '分享编程',
-  HERO_TITLE_2: '与思维认知',
-  HERO_TITLE_3: 'TANGLY1024.COM',
-  HERO_TITLE_4: '新版上线',
-  HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HERO_TITLE_LINK: 'https://tangly1024.com',
+  HERO_TITLE_1: '指弹吉他',
+  HERO_TITLE_2: '免费吉他谱',
+  HERO_TITLE_3: 'jt.moyucm.xyz',
+  HERO_TITLE_4: '收藏页面',
+  HERO_TITLE_5: '轻松练习吉他',
+  HERO_TITLE_LINK: 'jt.moyucm.xyz',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
@@ -23,7 +23,7 @@ const CONFIG = {
   HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  HERO_RECOMMEND_POST_TAG: '推荐',
+  HERO_RECOMMEND_POST_TAG: '',
   HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
@@ -99,17 +99,17 @@ const CONFIG = {
   ],
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '交流频道',
+  SOCIAL_CARD_TITLE_1: '交流社区',
   SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  SOCIAL_CARD_TITLE_3: '点击加入社群',
-  SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  SOCIAL_CARD_TITLE_3: '暂未开放',
+  SOCIAL_CARD_URL: ' ',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
   MENU_INDEX: true, // 显示首页
   MENU_CATEGORY: true, // 显示分类
-  MENU_TAG: true, // 显示标签
-  MENU_ARCHIVE: true, // 显示归档
+  MENU_TAG: false, // 显示标签
+  MENU_ARCHIVE: false, // 显示归档
   MENU_SEARCH: true, // 显示搜索
 
   POST_LIST_COVER: true, // 列表显示文章封面
